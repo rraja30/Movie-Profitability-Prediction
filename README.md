@@ -76,8 +76,8 @@ The total dataset, after cleaning took place, contained 9472 data points, which 
 - We fit the model using the scaled training data 
 - A function was created to find Mean Absolute Percentage Error
 - Then we printed the training and testing scores to determine the model's accuracy and mean absolute error. 
-- The Linear Regression Model had an training accuracy score of 0.7149 and a testing accuracy score of 0.6955
-- The model had a training Mean Absolute Percentage Error of 0.06% and a testing Mean Absolute Percentage Error of 6.98%
+- The Linear Regression Model had an training accuracy score of __0.7149__ and a testing accuracy score of __0.6955__
+- The model had a training Mean Absolute Percentage Error of __0.06%__ and a testing Mean Absolute Percentage Error of __6.98%__
 
 ## Lasso Regression
 
@@ -92,8 +92,8 @@ The total dataset, after cleaning took place, contained 9472 data points, which 
        'percent_return', 'year', 'is_english', 'is_Friday'
 - The feature with importance equal to 0 was 'is_Holiday' which was then dropped from the dataframe
 - Then we printed the training and testing scores to determine the model's accuracy and mean absolute error. 
-- The Lasso Regression Model had an training accuracy score of 0.7149 and a testing accuracy score of 0.6955
-- The model had a training mean absolute percentage error of 0.06% and a testing mean absolute percentage error of 6.98%
+- The Lasso Regression Model had an training accuracy score of __0.7149__ and a testing accuracy score of __0.6955
+- The model had a training mean absolute percentage error of __0.06%__ and a testing mean absolute percentage error of __6.98%__
 
 ## Random Forest Regression Model
 
@@ -102,20 +102,20 @@ The total dataset, after cleaning took place, contained 9472 data points, which 
 - Next, the data was scaled using a StandardScaler
 - We fit the model using the scaled training data 
 - Then we printed the training and testing scores to determine the model's accuracy and mean absolute error. 
-- The Random Forest Regression Model had an training accuracy score of 0.9942 and a testing accuracy score of 0.9548
-- The model had a training mean absolute percentage error of 0.02% and a testing mean absolute percentage error of 0.04%
+- The Random Forest Regression Model had an training accuracy score of __0.9942__ and a testing accuracy score of __0.9548__
+- The model had a training mean absolute percentage error of __0.02%__ and a testing mean absolute percentage error of __0.04%__
 
 ## Optimization
 
 - First, we located outliers to decrease the mean absolute error
     - the dataset was revised to include only budgets and revenues over 1,000,000 
-- After eliminating outliers, the Random Forest Regression Model had an training accuracy score of 0.9940 and a testing accuracy score of 0.9894. The new model had a training mean absolute percentage error of 0.08% and a testing mean absolute percentage error of 0.05%
+- After eliminating outliers, the Random Forest Regression Model had an training accuracy score of __0.9940__ and a testing accuracy score of __0.9894__. The new model had a training mean absolute percentage error of __0.08%__ and a testing mean absolute percentage error of __0.05%__.
 - Then, we ran feature selection on the random forest model for greater model optimization
     - The model's most important features were 'budget', 'vote_count' and 'percent_return'
 
 ![](images/feature_select.png)
 
-- After running feature selection, the Random Forest Regression Model had an training accuracy score of 0.9952 and a testing accuracy score of 0.9902. The new model had a training mean absolute percentage error of 0.07% and a testing mean absolute percentage error of 0.03%
+- After running feature selection, the Random Forest Regression Model had an training accuracy score of __0.9952__ and a testing accuracy score of __0.9902__. The new model had a training mean absolute percentage error of __0.07%__ and a testing mean absolute percentage error of __0.03%__.
 
 # Analysis
 # Acknowledgements
