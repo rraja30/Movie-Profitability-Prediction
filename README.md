@@ -41,7 +41,7 @@ The total dataset, after cleaning took place, contained 9468 data points, which 
 
 We tried to analyze the yearly trend of profit for the studios, we were also curious that how profit is going to change based on each genre. We have also found through visualizing in Tableau that any movie which has longer than average runtime basically is less profitable. We wanted to see if profit gets impacted by a specific time of the year, turns out movies released on holiday months will make more profit than a movie released in other months. Here are the visializations that were considered in this discussion:
 
-![image](https://user-images.githubusercontent.com/112669805/223173921-e7c0edf1-017b-412d-b8e4-f001022b70b8.png)
+![image](https://user-images.githubusercontent.com/112669805/223177586-7df5985e-2ff1-479f-9c1c-9f2baafc9519.png)
 
 ![image](https://user-images.githubusercontent.com/112669805/223176766-57f22146-8db7-445e-9f49-9d59673ff179.png)
 
