@@ -92,7 +92,7 @@ The total dataset, after cleaning took place, contained 9472 data points, which 
        'percent_return', 'year', 'is_english', 'is_Friday'
 - The feature with importance equal to 0 was 'is_Holiday' which was then dropped from the dataframe
 - Then we printed the training and testing scores to determine the model's accuracy and mean absolute error. 
-- The Lasso Regression Model had an training accuracy score of __0.7149__ and a testing accuracy score of __0.6955
+- The Lasso Regression Model had an training accuracy score of __0.7149__ and a testing accuracy score of __0.6955__
 - The model had a training mean absolute percentage error of __0.06%__ and a testing mean absolute percentage error of __6.98%__
 
 ## Random Forest Regression Model
