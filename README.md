@@ -7,7 +7,7 @@ Tableau Visualizations: https://public.tableau.com/app/profile/ramya.nivedha/viz
 Kaggle Dataset: https://www.kaggle.com/code/rounakbanik/the-story-of-film/notebook
 
 # Introduction
-Our group sought to predict the profitability of a movie, based on numerous features. To do so we sought to take two approaches, making predictions based off of a machine learning model and using Tableau to visualize the data to track coorelations between profit and specific features. 
+Our group sought to predict the profitability of a movie, based on numerous features. To do so we sought to take two approaches, making predictions based off of a machine learning model and using Tableau to visualize the data to track corelations between profit and specific features. 
 
 # Data Cleaning
 We used "The Movie Dataset" from Kaggle.com which included multiple csv files detailing movie information spanning 1924-2022. There were many useful features in this dataset; however, we filtered down the dataset to use only what we determined to be useful in our machine learning model as well as Tableau visualizations. The necessary features being: 
@@ -38,6 +38,11 @@ We cleaned and enhanced the data set in the following ways:
 The total dataset, after cleaning took place, contained 9468 data points, which was used to produce the Tableau visualizations. 
 
 # Visualizations
+
+Our team chose Tableau for visualization. We tried to analyze the yearly trend between of profit for the studios:
+
+![image](https://user-images.githubusercontent.com/112669805/223173921-e7c0edf1-017b-412d-b8e4-f001022b70b8.png)
+
 
 # Machine Learning
 
