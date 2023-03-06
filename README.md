@@ -7,7 +7,7 @@ Tableau Visualizations: https://public.tableau.com/app/profile/ramya.nivedha/viz
 Kaggle Dataset: https://www.kaggle.com/code/rounakbanik/the-story-of-film/notebook
 
 # Introduction
-Our group sought to predict the profitability of a movie, based on numerous features. To do so we sought to take two approaches, making predictions based off of a machine learning model and using Tableau to visualize the data to track coorelations between profit and specefic features. 
+Our group sought to predict the profitability of a movie, based on numerous features. To do so we sought to take two approaches, making predictions based off of a machine learning model and using Tableau to visualize the data to track coorelations between profit and specific features. 
 
 # Data Cleaning
 We used "The Movie Dataset" from Kaggle.com which included multiple csv files detailing movie information spanning 1924-2022. There were many useful features in this dataset; however, we filtered down the dataset to use only what we determined to be useful in our machine learning model as well as Tableau visualizations. The necessary features being: 
@@ -31,11 +31,11 @@ We cleaned and enhanced the data set in the following ways:
   - 'profit': revenue - budget
 - dropped all null values
 - grouped together the top production companies and labeled other smaller companies as 'other'
-- split the 'genres' category intwo 'genre 1' and 'genre 2', each with string values, for simplicity
+- split the 'genres' category into 'genre 1' and 'genre 2', each with string values, for simplicity
 - split the 'release_date' column into 'year','month', and 'day'
 - checked for and dropped all duplicate values
 
-The total dataset, after cleaning took place, contained 9472 data points, which was used to produce the Tableau visualizations. 
+The total dataset, after cleaning took place, contained 9468 data points, which was used to produce the Tableau visualizations. 
 
 # Visualizations
 
@@ -109,6 +109,7 @@ The total dataset, after cleaning took place, contained 9472 data points, which 
 
 - First, we located outliers to decrease the mean absolute error
     - the dataset was revised to include only budgets and revenues over 1,000,000 
+    - The total dataset, after removing outliers, contained 6951 data points
 - After eliminating outliers, the Random Forest Regression Model had an training accuracy score of __0.9940__ and a testing accuracy score of __0.9894__. The new model had a training mean absolute percentage error of __0.08%__ and a testing mean absolute percentage error of __0.05%__.
 - Then, we ran feature selection on the random forest model for greater model optimization
     - The model's most important features were 'budget', 'vote_count' and 'percent_return'
