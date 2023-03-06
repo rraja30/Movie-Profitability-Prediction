@@ -39,9 +39,15 @@ The total dataset, after cleaning took place, contained 9468 data points, which 
 
 # Visualizations
 
-Our team chose Tableau for visualization. We tried to analyze the yearly trend between of profit for the studios:
+We tried to analyze the yearly trend of profit for the studios, we were also curious that how profit is going to change based on each genre. We have also found through visualizing in Tableau that any movie which has longer than average runtime basically is less profitable. We wanted to see if profit gets impacted by a specific time of the year, turns out movies released on holiday months will make more profit than a movie released in other months. Here are the visializations that were considered in this discussion:
 
 ![image](https://user-images.githubusercontent.com/112669805/223173921-e7c0edf1-017b-412d-b8e4-f001022b70b8.png)
+
+![image](https://user-images.githubusercontent.com/112669805/223176766-57f22146-8db7-445e-9f49-9d59673ff179.png)
+
+![image](https://user-images.githubusercontent.com/112669805/223176948-517c0582-a69d-4815-97a6-1f6e44e0ab56.png)
+
+![image](https://user-images.githubusercontent.com/112669805/223177158-ba704d1d-8aa1-40e4-8bf7-2c29cf82248d.png)
 
 
 # Machine Learning
