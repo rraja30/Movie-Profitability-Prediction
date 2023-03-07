@@ -43,7 +43,7 @@ The total dataset, after cleaning took place, contained 9468 data points, which 
 
 We used the cleaned data set to build some visualizations to see what kind of predictions we could make based on the data prior to running any machine learning models. We analyzed trends in revenue when compared with the production studios and genres included in the data set. Through visualizing in Tableau, we found that any movie with a longer than average runtime is less profitable than those with average runtimes. We also analyzed how revenue is impacted by a specific time of the year and found that movies released in holiday months will have higher revenue than movies released in other months. Here are the visualizations that were considered in this discussion: 
 
-![image](https://user-images.githubusercontent.com/112669805/223177586-7df5985e-2ff1-479f-9c1c-9f2baafc9519.png)
+![](images/revenue_studio.png)
 
 - The budget of a movie does not have a high correlation with it's revenue.
 
@@ -51,12 +51,11 @@ We used the cleaned data set to build some visualizations to see what kind of pr
 
 - Films with significantly longer run times are not as profitable as those with runtimes at approximately 2 hours. 
 
-![image](https://user-images.githubusercontent.com/112669805/223176948-517c0582-a69d-4815-97a6-1f6e44e0ab56.png)
+![](images/revenue_runtime.png)
 
 - The most profitable months are December and June.
 
-![image](https://user-images.githubusercontent.com/112669805/223177158-ba704d1d-8aa1-40e4-8bf7-2c29cf82248d.png)
-
+![](images/revenue_month.png)
 
 # Machine Learning
 
