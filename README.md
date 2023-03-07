@@ -46,6 +46,10 @@ We used the cleaned data set to build some visualizations to see what kind of pr
 
 ![image](https://user-images.githubusercontent.com/112669805/223177586-7df5985e-2ff1-479f-9c1c-9f2baafc9519.png)
 
+The budget of a movie does not have a high correlation with it's revenue.
+
+![](images/revenue_budget.png)
+
 Films with significantly longer run times are not as profitable as those with runtimes at approximately 2 hours. 
 
 ![image](https://user-images.githubusercontent.com/112669805/223176948-517c0582-a69d-4815-97a6-1f6e44e0ab56.png)
@@ -54,9 +58,7 @@ The most profitable months are December and June.
 
 ![image](https://user-images.githubusercontent.com/112669805/223177158-ba704d1d-8aa1-40e4-8bf7-2c29cf82248d.png)
 
-The budget of a movie does not have a high correlation with it's revenue.
 
-!   [](images/revenue_budget.png)
 
 
 # Machine Learning
