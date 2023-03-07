@@ -68,7 +68,7 @@ We used the cleaned data set to build some visualizations to see what kind of pr
 
 ![](images/feature_corre.png)
 
-- Then, we engineered the non numerical variables so that thye became boolean values.
+- Then, we engineered the non numerical variables so that they became boolean values.
     - the 'original_language' column was changed to is/is not english
     - the 'days' column was changed to is/is not friday
     - the 'months' column was changed to is/is not holiday
