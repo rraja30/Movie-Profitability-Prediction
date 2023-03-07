@@ -144,7 +144,11 @@ We used the cleaned data set to build some visualizations to see what kind of pr
 
 - Our machine learning model, contradicts predictions we made from our Tableau visualizations. We assumed budget had a minimal effect on revenue. However, from our machine learning models, we see budget as one of the most important features in prediction. 
 
+![](images/revenue_budget.png)
+
 - 'vote_count' was also another one of the most popular features, which was defined as how many votes each movie had, thus its popularity. Becasue this feature was deemed important by our random forest regression model, we can conclude advertising and effectiveness of advertising have a big impact on the revenue of movies.
+
+![](images/CoorelationRevenueBudgetByMovie.png)
 
 # Acknowledgements
 
